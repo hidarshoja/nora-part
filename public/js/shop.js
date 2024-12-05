@@ -64,17 +64,17 @@ const products = [
       },
   ];
   const allProduct = document.getElementById("all-product");
-  
+//   single-product.html
   products.forEach(product => {
     const swiperSlide = document.createElement('div');
     swiperSlide.classList.add('swiper');
     swiperSlide.innerHTML = `
        <div class="rounded-3xl leading-10 p-4" style="background-color: gainsboro;">
-                        <a href="single-product.html" class="flex flex-col items-center justify-center">
+                        <a href="#" class="flex flex-col items-center justify-center">
                           <img class="mb-4" src="${product.image}" alt="">
                         </a>
                       <div class="text-center">
-                        <a href="single-product.html">
+                        <a href="#">
                         <h3 class="font-YekanBakh-ExtraBold text-base"> 
                         ${product.title}
                         </h3></a>
